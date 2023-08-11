@@ -16,8 +16,8 @@ async function drawScatter() {
 // 2. Create chart dimensions 
 
     const width = d3.min([
-        window.innerWidth*0.90, 
-        window.innerHeight*0.90,
+        window.innerWidth * .90, 
+        window.innerHeight * .90,
     ])
 
     const dimensions = {
